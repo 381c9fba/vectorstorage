@@ -1,4 +1,4 @@
-# Развертывание ChromaDB с помощью Docker Compose
+# Развертывание Faiss с помощью Docker Compose
 
 Этот репозиторий содержит конфигурацию Docker Compose для развертывания Векторной базы данных Faiss.
 
