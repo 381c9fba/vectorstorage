@@ -18,7 +18,8 @@ with open('data/tags_list.json', 'r', encoding='utf-8') as f:
 
 app = FastAPI()
 index = faiss.read_index("data/tags_index.ivf", faiss.IO_FLAG_MMAP)
-model = SentenceTransformer('DeepPavlov/rubert-base-cased-sentence', )
+print("Loading model...")
+model = SentenceTransformer('DeepPavlov/rubert-base-cased-sentence')
 
 TOP_N = 3
 # 1, 2, 3, 5, 10
