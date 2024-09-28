@@ -12,7 +12,7 @@
 1. Клонировать репозиторий: `git clone https://github.com/381c9fba/vectorstorage.git`
 2. Перейти в директорию репозитория: `cd vectorstorage`
 3. Создать файл Docker Compose: docker-compose up -d
-4. Проверить, что Контейнер запущен: docker-compose exec chromadb
+4. Проверить, что Контейнер запущен: docker-compose ps
 
 ## Конфигурация
 
